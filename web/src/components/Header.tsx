@@ -4,7 +4,7 @@ import LogoImage from '../assets/Group 2.svg'
 export function Header(){
       
       return (
-      <div className='w-full max-w-3xl mx-auto flex items-center justify-between'>
+      <div className='w-full max-w-3xl mx-auto flex items-center justify-between mb-14'>
       <img src={LogoImage} alt="Habits" />
       <button 
       type='button'

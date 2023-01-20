@@ -15,7 +15,7 @@ export function Header(){
       type='button'
       
       className='border border-violet-500 font-semibold rounded-lg px-6 py-4 flex items-center gap-3 hover:border-violet-300'
-      > <Plus size={20} className="text-violet-500"/>New Habit
+      > <Plus size={20} className="text-violet-500"/>Novo hábito
       </Dialog.Trigger>
       <Dialog.Portal>
             <Dialog.Overlay className='w-screen h-screen bg-black/80 fixed inset-0'/>
@@ -23,7 +23,7 @@ export function Header(){
                   <Dialog.Close className='absolute right-6 top-6 text-zinc-400 hover:text-zinc-200'>
                         <X size={24} aria-label='close'/>
                   </Dialog.Close>
-                  <Dialog.Title className='text-3xl leading-tight font-bold'>Create Habit</Dialog.Title>
+                  <Dialog.Title className='text-3xl leading-tight font-bold'>Criar hábito</Dialog.Title>
                   <NewHabitForm />
             </Dialog.Content>
       </Dialog.Portal> 

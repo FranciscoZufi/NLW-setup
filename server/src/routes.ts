@@ -118,6 +118,7 @@ app.patch('/habits/:id/toggle', async (request)=> {
 })
 
 app.get('/summary', async () => {
+  console.log('ta entrando aqui')
   const summary =  await prisma.$queryRaw`
   SELECT 
     D.id, 
